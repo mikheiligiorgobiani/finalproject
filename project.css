@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.logo{
+    background-color:#5f6370 ;
+}
+.logo img{
+    margin-left: 85px;
+    margin-top: 30px;
+}
+.spaceli{
+    margin-left: 10px;
+    padding: 70px;
+    flex-direction: column;
+    
+}
+.space{
+    height: 90.9vh;
+    background-color: #5f6370;
+}
+.spaceone li{
+    padding: 5px;
+}
+.spacetwo li{
+    padding: 5px;
+}
+.pirveli{
+    font-size: 24px;
+    width: max-content;
+}
+.pirveli a{
+    color: #c4c2c2;
+}
+ul li{
+    font-size: 18px;
+    width: max-content;
+    
+}
+ul li a{
+    color: #c4c2c2;
+}
+.cargo{
+    width: 1036px;
+    height: 851px;
+    background: linear-gradient(124.01deg, #2D3038 0%, rgba(45, 48, 56, 0) 100%);
+    border-radius: 30px;
+    margin-left: 360px;
+    margin-top: -280px;
+
+}
+.pirveli:hover{
+    background-color: aqua;
+}
+ul li:hover{
+    background-color: aqua;
+}
+#compname{
+    position: absolute;
+    width: 236px;
+    height: 74px;
+    left: 411px;
+    top: 151px;
+}
+#mail{
+    height: 24px;
+    width: 170px;
+    position: absolute;
+    left: 411px;
+    top: 232px;
+}
+#boxes{
+    height: 24px;
+    width: 170px;
+    position: absolute;
+    left: 411px;
+    top: 255px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+#inpu{
+    
+    margin-left: 48px;
+    
+}
+#inp{
+    width: 320px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 170px;
+    
+}
+#number{
+    width: 468px;
+    height: 44px;
+    position: absolute;
+    left: 411px;
+    top: 360px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 44px;
+}
+#numbertwo{
+    width: 32px;
+    height: 66px;
+    position: absolute;
+    left: 408px;
+    top: 417px;  
+}
+#loading{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    margin-left: 450px;
+    border: 5px solid #f3f3f3;
+    border-top: 6px solid black;
+    display: none;
+    animation: loader 1s infinite linear;
+}
+@keyframes loader {
+      from {
+        transform: rotate(0);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+}
